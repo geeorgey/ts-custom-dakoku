@@ -58,5 +58,24 @@
         "value":"False",
         "required":false
     },
-}
+    "cronTimeMorning": {
+        "description": "Morning Alert time ex: 00 30 08 * * 1-5",
+        "value":"00 30 08 * * 1-5",
+        "required":false
+    },
+    "cronTimeMorningConfirmation": {
+        "description": "Morning Alert time ex: 00 30 08 * * 1-5",
+        "value":"00 30 12 * * 1-5",
+        "required":false
+    },
+    "cronTimeNight": {
+        "description": "Night Alert time ex: 00 30 08 * * 1-5",
+        "value":"00 00 20 * * 1-5",
+        "required":false
+    },
+    "cronTimeNightConfirmation": {
+        "description": "Night Alert time ex: 00 30 08 * * 1-5",
+        "value":"00 00 22 * * 1-5",
+        "required":false
+    },}
 }
